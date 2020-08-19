@@ -233,7 +233,6 @@ def solve():
     n=n//2
     l=0
     ans=0
-    print(z)
     while(n>0 and z[l+n]==n):
         ans+=1
         l+=n
